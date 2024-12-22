@@ -1,0 +1,244 @@
+/* Mobile devices (portrait and landscape) */
+@media (max-width: 767px){
+    body::before{
+        font-size: 5rem;
+    }
+
+
+    .try{
+        top: 0;
+        animation: showMenu .8s ease forwards;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .header .headerWrapper{
+        padding: 2rem 1.5rem;
+        width: 100%;
+    }
+
+    .header .headerWrapper .headerLogo{
+        gap: 7rem;
+    }
+
+    .header .headerWrapper .headerLogo img{
+        display: none;
+    }
+
+    .header .headerWrapper .headerLogo i{
+        font-size: 3rem;
+    }
+
+    .header .headerWrapper .headerLogo h4{
+        font-size: 1.5rem;
+    }
+
+    .header .headerWrapper .headerCenter{
+        display: none;
+    }
+
+    .header .headerWrapper .headerLinks{
+        display: none;
+    }
+
+
+
+    /* FOR SIDENAV */
+
+    .sidenav{
+        width: 100%;
+    }
+
+    .sidenav .sideWrapper .sidelink .sid{
+        padding: 2.5rem 0 2.5rem 1.5rem;
+    }
+
+    .sidenav .sideWrapper .sidelink .sid a{
+        font-size: 1.5rem;
+    }
+
+    .sidenav .sideWrapper .sidelink .sid i{
+        font-size: 3rem;
+    }
+
+    .sidenav .sideWrapper .close{
+        padding: 2rem 0;
+    }
+
+    .sidenav .sideWrapper .close h3{
+        font-size: 2rem;
+    }
+
+    .sidenav .sideWrapper .close img{
+        width: 70px;
+    }
+
+    .sidenav .sideWrapper .close span{
+        font-size: 2.5rem;
+    }
+
+
+
+    /* FOR HERO */
+    .hero{
+        width: 100%;
+        height: 145vh;
+        background-size: cover;
+        margin-bottom: 9rem;
+    }
+
+    .hero .heroWrapper .heroWrapperBlog{
+        width: 100%;
+        margin: 39rem 2rem 0 2rem;
+    }
+
+    .hero .heroWrapper .heroWrapperLinks{
+        width: 100%;
+        margin: 43rem 0rem 0 0rem;
+    }
+
+    .hero .heroWrapper .heroWrapperBlog{
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        width: 90%;
+    }
+
+    .hero .heroWrapper .heroWrapperBlog div a small{
+        font-size: .9rem;
+    }
+
+    .hero .heroWrapper .heroWrapperBlog div a span{
+        font-size: 1.2rem;
+    }
+
+
+    .hero .heroWrapper .heroWrapperLinks{
+        clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 90%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+    }
+
+    .hero .heroWrapper .heroWrapperLinks .conlin{
+        flex-direction: column;
+    }
+
+    .hero .heroWrapper .heroWrapperLinks .conlin hr{
+        height: 0;
+    }
+
+
+
+
+    /* FOR BODY */
+    .body .bodyWrapper{
+        flex-direction: column;
+    }
+
+    .body .bodyWrapper .bodyEntertainment .entertainLinks{
+        padding: 0 .3rem;
+    }
+
+    .body .bodyWrapper .bodyNews .NewsLinks{
+        padding: 0 .3rem;
+    }
+
+
+
+    /* FOR GAMES */
+    .games .gamesWrapper .gamesDivUp{
+        flex-direction: column;
+    }
+
+    .games .gamesWrapper .gamesDivUp .gamesCon{
+        align-items: center;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .games .gamesWrapper .gamesDivUp .gamesCon a{
+        width: 80%;
+    }
+
+
+    .games .gamesWrapper .gamesDivDown{
+        flex-direction: column;
+    }
+
+    .games .gamesWrapper .gamesDivDown .gamesCon{
+        align-items: center;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .games .gamesWrapper .gamesDivDown .gamesCon a{
+        width: 80%;
+    }
+
+
+    /* FOR CHOOSE */
+    .choose .chooseContent .chooseFlex{
+        flex-direction: column;
+    }
+
+    .choose .chooseContent .chooseFlex .chooseImg img{
+        width: 350px;
+    }
+
+    .choose .chooseContent .chooseHead h2{
+        width: 70%;
+    }
+
+    .choose .chooseContent .chooseFlex .chooseText{
+        width: 80%;
+    }
+
+
+
+    /* FOR CONTENT */
+    .content .contentWrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+
+
+    /* FOR BLOG */
+    .blog .blogWrapper{
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+
+    .blog .blogWrapper .blogLeft{
+        background-color: #F0F2F5;
+    }
+
+    .blog .blogWrapper .blogLeft .blogDiv{
+        flex-direction: column;
+        padding: 2rem 1rem;
+        align-items: first baseline;
+    }
+
+    .blog .blogWrapper .blogLeft hr{
+        border: 1px solid rgb(89, 89, 202);
+        margin: 0 1rem;
+    }
+
+    .blog .blogWrapper .blogLeft .blogDiv .divText{
+        width: 90%;
+    }
+
+    .blog .blogWrapper .blogRight .RightLink{
+        padding: .9rem 2rem 1rem 2rem;
+        width: 100%;
+    }
+
+    .blog .blogWrapper .blogRight .RightLink img{
+        width: 350px;
+    }
+
+    .blog .blogWrapper .blogRight hr{
+        margin: 0rem 1.5rem;
+        width: 88%;
+    }
+}
